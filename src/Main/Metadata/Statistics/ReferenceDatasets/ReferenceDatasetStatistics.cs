@@ -1,7 +1,6 @@
 //using USC.GISResearchLab.Common.Utils.Reflections;
 using System.Collections.Generic;
 using System.Text;
-using USC.GISResearchLab.Common.Core.Geocoders.ReferenceDatasets.Sources.Interfaces;
 using USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDatasets
@@ -23,9 +22,9 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDataset
         {
         }
 
-        public ReferenceDatasetStatistics(IFeatureSource referenceDataSource)
+        public ReferenceDatasetStatistics(string referenceDataSourceName)
 		{
-            ReferenceDatasetName = referenceDataSource.Name;
+            ReferenceDatasetName = referenceDataSourceName;
             ReferenceSourceQueries = new List<ReferenceSourceQuery>();
 		}
 

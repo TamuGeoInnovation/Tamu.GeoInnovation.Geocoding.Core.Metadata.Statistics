@@ -103,13 +103,13 @@
     <Compile Include="Metadata\Statistics\MatchedFeatures\StateStatistics.cs" />
     <Compile Include="Metadata\Statistics\MatchedFeatures\StreetStatistics.cs" />
     <Compile Include="Metadata\Statistics\MatchedFeatures\ZipCodeStatistics.cs" />
+    <Compile Include="Metadata\Statistics\ReferenceDatasets\ReferenceDatasetsStatistics.cs" />
+    <Compile Include="Metadata\Statistics\ReferenceDatasets\ReferenceDatasetStatistics.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Metadata\Statistics\ReferenceDatasets\ReferenceDatasetStatistics.cs" />
-    <Compile Include="Metadata\Statistics\ReferenceDatasets\ReferenceDatasetsStatistics.cs" />
     <Compile Include="Metadata\Statistics\MatchedLocationTypeStatistics.cs" />
     <Compile Include="Metadata\Statistics\AddressStatistics.cs" />
     <Compile Include="Metadata\Statistics\InterpolationStatistics.cs" />
@@ -175,11 +175,6 @@
     <ProjectReference Include="..\..\..\Geocoding.Core.Metadata.Qualities\src\Main\Geocoding.Core.Metadata.Qualities.Dev.csproj">
       <Project>{33D5F4A3-E00E-4E13-8F28-B591699CE6AC}</Project>
       <Name>Geocoding.Core.Metadata.Qualities.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces\src\Main\Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces.Dev.csproj">
-      <Project>{9EB4E875-CA0B-46B7-98C3-3A813337F1E4}</Project>
-      <Name>Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Results\src\Main\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Results.Dev.csproj">
