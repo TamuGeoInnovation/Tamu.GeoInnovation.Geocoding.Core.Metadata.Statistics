@@ -1,5 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Metadata.Statistics\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Statistics.dll
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Metadata.Statistics\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Statistics.pdb
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Metadata.Statistics\src\Main\obj\Release\Geocoding.Core.Metadata.Statistics.Dev.csprojResolveAssemblyReference.cache
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Metadata.Statistics\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Statistics.dll
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Metadata.Statistics\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Statistics.pdb
