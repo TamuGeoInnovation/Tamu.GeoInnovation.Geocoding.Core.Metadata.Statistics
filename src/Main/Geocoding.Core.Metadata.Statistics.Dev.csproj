@@ -209,11 +209,6 @@
       <Name>Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Results.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries\src\Main\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Dev.csproj">
-      <Project>{7EF4FA43-C253-47C1-B21E-3BCCE6435512}</Project>
-      <Name>Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
