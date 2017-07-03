@@ -200,9 +200,8 @@
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.Metadata.Qualities\src\Main\Geocoding.Core.Metadata.Qualities.Dev.csproj">
-      <Project>{33D5F4A3-E00E-4E13-8F28-B591699CE6AC}</Project>
+      <Project>{33d5f4a3-e00e-4e13-8f28-b591699ce6ac}</Project>
       <Name>Geocoding.Core.Metadata.Qualities.Dev</Name>
-      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Results\src\Main\Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries.Results.Dev.csproj">
       <Project>{AF385447-152E-47B3-B0D4-37557B24E50A}</Project>
