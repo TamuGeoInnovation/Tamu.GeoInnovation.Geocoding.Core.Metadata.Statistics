@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 {
-	/// <summary>
-	/// Summary description for ZipCodeStatistics.
-	/// </summary>
-	public class ParcelStatistics : FIPSStatistics
+    /// <summary>
+    /// Summary description for ZipCodeStatistics.
+    /// </summary>
+    public class ParcelStatistics : FIPSStatistics
     {
         #region Properties
 
@@ -29,7 +29,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
         }
 
         public override string ToString()
-		{
+        {
             StringBuilder ret = new StringBuilder();
             ret.AppendLine(GetType().Name);
             //string[][] properties = ReflectionUtils.GetObjectProperties(this);
@@ -40,5 +40,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //}
             return ret.ToString();
         }
-	}
+    }
 }

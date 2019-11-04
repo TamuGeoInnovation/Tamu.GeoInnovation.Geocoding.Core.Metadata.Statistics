@@ -4,37 +4,37 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 {
-	/// <summary>
-	/// Summary description for MatchedFeatureStatistics.
-	/// </summary>
-	public class MatchedFeatureStatistics
+    /// <summary>
+    /// Summary description for MatchedFeatureStatistics.
+    /// </summary>
+    public class MatchedFeatureStatistics
     {
         #region Properties
         private ParcelStatistics _ParcelStatistics;
         private StreetStatistics _StreetStatistics;
-	    private ZipCodeStatistics _ZIPCodeStatistics;
-	    private CityStatistics _CityStatistics;
-	    private CountySubregionStatistics _CountySubregionStatistics;
-	    private CountyStatistics _CountyStatistics;
-	    private StateStatistics _StateStatistics;
+        private ZipCodeStatistics _ZIPCodeStatistics;
+        private CityStatistics _CityStatistics;
+        private CountySubregionStatistics _CountySubregionStatistics;
+        private CountyStatistics _CountyStatistics;
+        private StateStatistics _StateStatistics;
 
-	    public StreetStatistics StreetStatistics
-	    {
-	        get { return _StreetStatistics; }
-	        set { _StreetStatistics = value; }
-	    }
+        public StreetStatistics StreetStatistics
+        {
+            get { return _StreetStatistics; }
+            set { _StreetStatistics = value; }
+        }
 
-	    public ZipCodeStatistics ZIPCodeStatistics
-	    {
-	        get { return _ZIPCodeStatistics; }
-	        set { _ZIPCodeStatistics = value; }
-	    }
+        public ZipCodeStatistics ZIPCodeStatistics
+        {
+            get { return _ZIPCodeStatistics; }
+            set { _ZIPCodeStatistics = value; }
+        }
 
-	    public CityStatistics CityStatistics
-	    {
-	        get { return _CityStatistics; }
-	        set { _CityStatistics = value; }
-	    }
+        public CityStatistics CityStatistics
+        {
+            get { return _CityStatistics; }
+            set { _CityStatistics = value; }
+        }
 
         public ParcelStatistics ParcelStatistics
         {
@@ -42,22 +42,22 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             set { _ParcelStatistics = value; }
         }
 
-	    public CountySubregionStatistics CountySubregionStatistics
-	    {
-	        get { return _CountySubregionStatistics; }
-	        set { _CountySubregionStatistics = value; }
-	    }
+        public CountySubregionStatistics CountySubregionStatistics
+        {
+            get { return _CountySubregionStatistics; }
+            set { _CountySubregionStatistics = value; }
+        }
 
-	    public CountyStatistics CountyStatistics
-	    {
-	        get { return _CountyStatistics; }
-	        set { _CountyStatistics = value; }
-	    }
+        public CountyStatistics CountyStatistics
+        {
+            get { return _CountyStatistics; }
+            set { _CountyStatistics = value; }
+        }
 
-	    public StateStatistics StateStatistics
-	    {
-	        get { return _StateStatistics; }
-	        set { _StateStatistics = value; }
+        public StateStatistics StateStatistics
+        {
+            get { return _StateStatistics; }
+            set { _StateStatistics = value; }
         }
         #endregion
 
@@ -84,5 +84,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //}
             return ret.ToString();
         }
-	}
+    }
 }

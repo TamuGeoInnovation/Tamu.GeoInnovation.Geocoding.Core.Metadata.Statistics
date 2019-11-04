@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for AddressStatistics.
-	/// </summary>
-	public class AddressStatistics
+    /// <summary>
+    /// Summary description for AddressStatistics.
+    /// </summary>
+    public class AddressStatistics
     {
         #region Properties
         private string _Valid;
@@ -34,11 +34,11 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         #endregion
 
         public AddressStatistics()
-		{
-			Valid = "unknown";
-			AssessorId = "";
-			UsingAddress = "";
-		}
+        {
+            Valid = "unknown";
+            AssessorId = "";
+            UsingAddress = "";
+        }
 
         public override string ToString()
         {
@@ -52,5 +52,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
             //}
             return ret.ToString();
         }
-	}
+    }
 }

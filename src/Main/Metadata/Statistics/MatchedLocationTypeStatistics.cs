@@ -5,10 +5,10 @@ using USC.GISResearchLab.Geocoding.Core.Utils.Qualities;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for QualityStatistics.
-	/// </summary>
-	public class MatchedLocationTypeStatistics
+    /// <summary>
+    /// Summary description for QualityStatistics.
+    /// </summary>
+    public class MatchedLocationTypeStatistics
     {
         #region Properties
 
@@ -37,22 +37,22 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
 
 
         public MatchedLocationTypeStatistics()
-		{
+        {
             MatchedLocationTypeIndex = (int)MatchedLocationTypes.Unknown;
             MatchedLocationTypeName = MatchedLocationTypeUtils.GetMatchedLocationTypeName(MatchedLocationTypes.Unknown);
             MatchedLocationTypeDescription = MatchedLocationTypeUtils.GetMatchedLocationTypeDescription(MatchedLocationTypes.Unknown);
-		}
+        }
 
         public void setMatchedLocationType(int matchedLocationType)
-		{
+        {
             MatchedLocationTypeIndex = matchedLocationType;
             MatchedLocationTypeName = MatchedLocationTypeUtils.GetMatchedLocationTypeName((MatchedLocationTypes)matchedLocationType);
             MatchedLocationTypeDescription = MatchedLocationTypeUtils.GetMatchedLocationTypeDescription((MatchedLocationTypes)matchedLocationType);
-		}
+        }
 
         public void setMatchedLocationType(string matchedLocationTypeName)
         {
-            MatchedLocationTypeIndex = (int)MatchedLocationTypeUtils.GetQualityTypeFromName( matchedLocationTypeName);
+            MatchedLocationTypeIndex = (int)MatchedLocationTypeUtils.GetQualityTypeFromName(matchedLocationTypeName);
             MatchedLocationTypeName = matchedLocationTypeName;
             MatchedLocationTypeDescription = MatchedLocationTypeUtils.GetMatchedLocationTypeDescription((MatchedLocationTypes)MatchedLocationTypeIndex);
         }
@@ -76,6 +76,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
             //}
             return ret.ToString();
         }
-	}
+    }
 }
-    

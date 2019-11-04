@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 {
-	/// <summary>
-	/// Summary description for ZipCodeStatistics.
-	/// </summary>
-	public class ZipCodeStatistics : FIPSStatistics
+    /// <summary>
+    /// Summary description for ZipCodeStatistics.
+    /// </summary>
+    public class ZipCodeStatistics : FIPSStatistics
     {
         #region Properties
         private string _ZIP;
@@ -18,9 +18,9 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             set { _ZIP = value; }
         }
 
-		public ZipCodeStatistics()
-		{
-			ZIP = "";
+        public ZipCodeStatistics()
+        {
+            ZIP = "";
         }
         #endregion
 
@@ -36,6 +36,6 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //}
             return ret.ToString();
         }
-	}
+    }
 }
 

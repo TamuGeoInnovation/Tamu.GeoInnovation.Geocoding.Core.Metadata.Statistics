@@ -6,10 +6,10 @@ using USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDatasets;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for Statistics.
-	/// </summary>
-	public class GeocodeStatistics
+    /// <summary>
+    /// Summary description for Statistics.
+    /// </summary>
+    public class GeocodeStatistics
     {
         #region Properties
 
@@ -19,8 +19,8 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         public DateTime EndTime
         {
             get { return _EndTime; }
-            set 
-            { 
+            set
+            {
                 _EndTime = value;
                 TimeTaken = (EndTime - StartTime);
             }
@@ -54,18 +54,18 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         #endregion
 
         public GeocodeStatistics()
-		{
-			QualityStatistics = new QualityStatistics();
-			InterpolationStatistics = new InterpolationStatistics();
-			StartTime = DateTime.Now;
-			EndTime = new DateTime(0);
-			TimeTaken = new TimeSpan(0);
-			MatchedFeatureStatistics = new MatchedFeatureStatistics();
+        {
+            QualityStatistics = new QualityStatistics();
+            InterpolationStatistics = new InterpolationStatistics();
+            StartTime = DateTime.Now;
+            EndTime = new DateTime(0);
+            TimeTaken = new TimeSpan(0);
+            MatchedFeatureStatistics = new MatchedFeatureStatistics();
             MatchedLocationTypeStatistics = new MatchedLocationTypeStatistics();
-			ParameterStatistics = new ParameterStatistics();
-			AddressStatistics = new AddressStatistics();
+            ParameterStatistics = new ParameterStatistics();
+            AddressStatistics = new AddressStatistics();
             ReferenceDatasetsStatistics = new ReferenceDatasetsStatistics();
-		}
+        }
 
         public override string ToString()
         {
@@ -84,5 +84,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         {
             TimeTaken = (TimeTaken + statisitics.TimeTaken);
         }
-	}
+    }
 }

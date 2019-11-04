@@ -5,10 +5,10 @@ using USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDatasets
 {
-	/// <summary>
-	/// Summary description for AddressStatistics.
-	/// </summary>
-	public class ReferenceDatasetStatistics
+    /// <summary>
+    /// Summary description for AddressStatistics.
+    /// </summary>
+    public class ReferenceDatasetStatistics
     {
         #region Properties
 
@@ -18,15 +18,15 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDataset
 
         #endregion
 
-        public ReferenceDatasetStatistics(): this(null)
+        public ReferenceDatasetStatistics() : this(null)
         {
         }
 
         public ReferenceDatasetStatistics(string referenceDataSourceName)
-		{
+        {
             ReferenceDatasetName = referenceDataSourceName;
             ReferenceSourceQueries = new List<ReferenceSourceQuery>();
-		}
+        }
 
         public override string ToString()
         {
@@ -50,5 +50,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDataset
             }
             return ret.ToString();
         }
-	}
+    }
 }

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDatasets
 {
-	/// <summary>
-	/// Summary description for AddressStatistics.
-	/// </summary>
-	public class ReferenceDatasetsStatistics
+    /// <summary>
+    /// Summary description for AddressStatistics.
+    /// </summary>
+    public class ReferenceDatasetsStatistics
     {
         #region Properties
 
@@ -16,9 +16,9 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDataset
         #endregion
 
         public ReferenceDatasetsStatistics()
-		{
+        {
             ReferenceDatasetStatistics = new List<ReferenceDatasetStatistics>();
-		}
+        }
 
         public void AddReferenceDatasetStatistics(List<ReferenceDatasetStatistics> referenceDatasetStatistics)
         {
@@ -50,5 +50,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Statistics.ReferenceDataset
             }
             return ret.ToString();
         }
-	}
+    }
 }

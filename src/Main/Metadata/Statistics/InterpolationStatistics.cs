@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for UniformLotStatistics.
-	/// </summary>
-	public class InterpolationStatistics
+    /// <summary>
+    /// Summary description for UniformLotStatistics.
+    /// </summary>
+    public class InterpolationStatistics
     {
         #region Properties
 
@@ -28,11 +28,11 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         #endregion
 
         public InterpolationStatistics()
-		{
-			ParcelsOnBlock = 0.0;
-			DropbackValue = 0.0;
+        {
+            ParcelsOnBlock = 0.0;
+            DropbackValue = 0.0;
 
-		}
+        }
 
         public override string ToString()
         {
@@ -46,5 +46,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
             //}
             return ret.ToString();
         }
-	}
+    }
 }

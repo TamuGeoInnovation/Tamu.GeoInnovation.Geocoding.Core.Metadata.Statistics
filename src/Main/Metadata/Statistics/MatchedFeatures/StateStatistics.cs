@@ -4,11 +4,11 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 {
-	/// <summary>
-	/// Summary description for ZipCodeStatistics.
-	/// </summary>
-	public class StateStatistics : FIPSStatistics
-	{
+    /// <summary>
+    /// Summary description for ZipCodeStatistics.
+    /// </summary>
+    public class StateStatistics : FIPSStatistics
+    {
         public override string ToString()
         {
             StringBuilder ret = new StringBuilder();
@@ -21,5 +21,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //}
             return ret.ToString();
         }
-	}
+    }
 }

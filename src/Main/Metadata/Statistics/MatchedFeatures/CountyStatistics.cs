@@ -4,10 +4,10 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 {
-	/// <summary>
-	/// Summary description for ZipCodeStatistics.
-	/// </summary>
-	public class CountyStatistics : FIPSStatistics
+    /// <summary>
+    /// Summary description for ZipCodeStatistics.
+    /// </summary>
+    public class CountyStatistics : FIPSStatistics
     {
         #region Properties
         private int county;
@@ -17,14 +17,14 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             set { county = value; }
         }
 
-		public CountyStatistics()
-		{
-			county = 0;
+        public CountyStatistics()
+        {
+            county = 0;
         }
         #endregion
 
         public override string ToString()
-		{
+        {
             StringBuilder ret = new StringBuilder();
             ret.AppendLine(GetType().Name);
             //string[][] properties = ReflectionUtils.GetObjectProperties(this);
@@ -34,6 +34,6 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //    ret.AppendLine();
             //}
             return ret.ToString();
-		}
-	}
+        }
+    }
 }

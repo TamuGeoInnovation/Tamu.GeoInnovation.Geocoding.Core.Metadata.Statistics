@@ -2,13 +2,13 @@
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for QualityStatistics.
-	/// </summary>
-	public class QualityStatistics
+    /// <summary>
+    /// Summary description for QualityStatistics.
+    /// </summary>
+    public class QualityStatistics
     {
         #region Properties
-        
+
         //private int _QualityIndex;
         //private string _QualityName;
         //private string _QualityDescription;
@@ -33,11 +33,11 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
 
 
         public QualityStatistics()
-		{
+        {
             //QualityIndex = (int) GeocodeQualityType.Unknown;
             //QualityName = QualityUtils.getQualityName(GeocodeQualityType.Unknown);
             //QualityDescription = QualityUtils.getQualityDescription(GeocodeQualityType.Unknown);
-		}
+        }
 
         //public void SetQuality(GeocodeQualityType quality)
         //{
@@ -70,6 +70,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         //    }
         //    return ret.ToString();
         //}
-	}
+    }
 }
-    

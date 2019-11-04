@@ -6,49 +6,49 @@ using USC.GISResearchLab.Common.Geometries.Directions;
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 
 {
-	/// <summary>
-	/// Summary description for StreetStatistics.
-	/// </summary>
-	public class StreetStatistics
+    /// <summary>
+    /// Summary description for StreetStatistics.
+    /// </summary>
+    public class StreetStatistics
     {
         #region Properties
         private double _ToLat;
-	    private double _ToLon;
-	    private double _FromLat;
-	    private double _FromLon;
+        private double _ToLon;
+        private double _FromLat;
+        private double _FromLon;
 
-	    private int _FromAddressRight;
-	    private int _ToAddressRight;
-	    private int _FromAddressLeft;
-	    private int _ToAddressLeft;
+        private int _FromAddressRight;
+        private int _ToAddressRight;
+        private int _FromAddressLeft;
+        private int _ToAddressLeft;
 
-	    private string _FePreDir;
-	    private string _FeName;
-	    private string _FeType;
-	    private string _FePostDir;
-	    private string _CFCC;
+        private string _FePreDir;
+        private string _FeName;
+        private string _FeType;
+        private string _FePostDir;
+        private string _CFCC;
 
-	    private string _ZIPLeft;
-	    private string _ZIPRight;
+        private string _ZIPLeft;
+        private string _ZIPRight;
 
-	    private string _CensusTractLeft;
-	    private string _CensusTractRight;
-	    private string _CensusBlockLeft;
-	    private string _CensusBlockRight;
+        private string _CensusTractLeft;
+        private string _CensusTractRight;
+        private string _CensusBlockLeft;
+        private string _CensusBlockRight;
 
-	    private string _FIPSCountySubLeft;
-	    private string _FIPSCountySubRight;
-	    private string _FIPSPlaceLeft;
-	    private string _FIPSPlaceRight;
+        private string _FIPSCountySubLeft;
+        private string _FIPSCountySubRight;
+        private string _FIPSPlaceLeft;
+        private string _FIPSPlaceRight;
 
 
-	    private string _Hand;
-	    private string _StreetDirection;
-	    private string _DropbackDirection;
+        private string _Hand;
+        private string _StreetDirection;
+        private string _DropbackDirection;
 
-	    private bool _Attempted;
-	    private bool _Valid;
-	    private string _Error;
+        private bool _Attempted;
+        private bool _Valid;
+        private string _Error;
 
         public double ToLat
         {
@@ -227,63 +227,63 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
 
 
         public StreetStatistics()
-		{
-			ToLat = 0.0;
-			ToLon = 0.0;
-			FromLat = 0.0;
-			FromLon = 0.0;
+        {
+            ToLat = 0.0;
+            ToLon = 0.0;
+            FromLat = 0.0;
+            FromLon = 0.0;
 
-			FromAddressRight = 0;
-			ToAddressRight = 0;
-			FromAddressLeft = 0;
-			ToAddressLeft = 0;
+            FromAddressRight = 0;
+            ToAddressRight = 0;
+            FromAddressLeft = 0;
+            ToAddressLeft = 0;
 
-			FePreDir = "";
-			FeName = "";
-			FeType = "";
-			FePostDir = "";
-			CFCC = "";
+            FePreDir = "";
+            FeName = "";
+            FeType = "";
+            FePostDir = "";
+            CFCC = "";
 
-			Hand = "";
-			StreetDirection = "";
-			DropbackDirection = "";
-			CensusTractLeft = "";
-			CensusTractRight = "";
-			CensusBlockLeft = "";
-			CensusBlockRight = "";
+            Hand = "";
+            StreetDirection = "";
+            DropbackDirection = "";
+            CensusTractLeft = "";
+            CensusTractRight = "";
+            CensusBlockLeft = "";
+            CensusBlockRight = "";
 
-			FIPSCountySubLeft = "";
-			FIPSCountySubRight = "";
-			FIPSPlaceLeft = "";
-			FIPSPlaceRight = "";
+            FIPSCountySubLeft = "";
+            FIPSCountySubRight = "";
+            FIPSPlaceLeft = "";
+            FIPSPlaceRight = "";
 
-			ZIPLeft = "";
-			ZIPRight = "";
+            ZIPLeft = "";
+            ZIPRight = "";
 
-			Attempted = false;
-			Valid = false;
-			Error = "";
+            Attempted = false;
+            Valid = false;
+            Error = "";
 
-		}
+        }
 
-	    
 
-	    public void setHand(int a_hand)
-		{
+
+        public void setHand(int a_hand)
+        {
             _Hand = USC.GISResearchLab.Common.Geometries.Hands.Hand.getHandName(a_hand);
-		}
+        }
 
-		public void setDirection(int a_direction)
-		{
-			_StreetDirection = CardinalDirection.getDirectionName(a_direction);
-		}
+        public void setDirection(int a_direction)
+        {
+            _StreetDirection = CardinalDirection.getDirectionName(a_direction);
+        }
 
-		public void setDropbackDirection(int a_direction)
-		{
+        public void setDropbackDirection(int a_direction)
+        {
             _DropbackDirection = CardinalDirection.getDirectionName(a_direction);
-		}
+        }
 
-		
+
         public override string ToString()
         {
             StringBuilder ret = new StringBuilder();
@@ -296,5 +296,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.MatchedFeatures
             //}
             return ret.ToString();
         }
-	}
+    }
 }

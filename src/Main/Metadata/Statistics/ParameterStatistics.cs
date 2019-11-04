@@ -4,13 +4,13 @@ using System.Text;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata
 {
-	/// <summary>
-	/// Summary description for ParameterStatistics.
-	/// </summary>
-	public class ParameterStatistics
+    /// <summary>
+    /// Summary description for ParameterStatistics.
+    /// </summary>
+    public class ParameterStatistics
     {
         #region Properties
-        
+
         private string _Method;
         private string _Source;
         private string _Number;
@@ -77,18 +77,18 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
         #endregion
 
         public ParameterStatistics()
-		{
-			Method = "";
-			Source = "";
-			Number = "";
-			Pre = "";
-			Name = "";
-			Suffix = "";
-			Post = "";
-			City = "";
-			State = "";
-			Zip = "";
-		}
+        {
+            Method = "";
+            Source = "";
+            Number = "";
+            Pre = "";
+            Name = "";
+            Suffix = "";
+            Post = "";
+            City = "";
+            State = "";
+            Zip = "";
+        }
 
         public override string ToString()
         {
@@ -102,5 +102,5 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata
             //}
             return ret.ToString();
         }
-	}
+    }
 }
