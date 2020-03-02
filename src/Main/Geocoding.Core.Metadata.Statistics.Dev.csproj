@@ -84,17 +84,6 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.EnterpriseServices" />
-    <Reference Include="System.Runtime.Serialization">
-      <RequiredTargetFramework>3.0</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.ServiceModel">
-      <RequiredTargetFramework>3.0</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Web.Services" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Metadata\Statistics\MatchedFeatures\CityStatistics.cs" />
@@ -165,10 +154,6 @@
       <Project>{E8164C90-2753-46F3-937A-653039318563}</Project>
       <Name>Common.Core.Geo.Geometries.Dev</Name>
       <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
-      <Project>{0744a732-a7fe-4658-967d-c5a583ef08e4}</Project>
-      <Name>Common.Core.Utils.Dev</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.Metadata.Qualities.MatchTypes\src\Main\Geocoding.Core.Metadata.Qualities.MatchTypes.Dev.csproj">
       <Project>{EC0D4BA3-E997-4584-9EE1-87DBACE7BFD3}</Project>
